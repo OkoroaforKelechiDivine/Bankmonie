@@ -9,7 +9,7 @@
 import LandingPageWeb from "@/components/LandingPageWeb";
 export default {
   name: 'app',
-  components: {LandingPageWeb},
+  components: { LandingPageWeb },
 }
 </script>
 
