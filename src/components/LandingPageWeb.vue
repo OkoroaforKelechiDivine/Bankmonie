@@ -1,13 +1,18 @@
 <template>
   <div>
-    <p>How are you doing?</p>
+    Hello zipDemon
   </div>
 </template>
 
 <script>
+
 export default {
-  name: "LandingPage"
+  name: "LandingPageWeb",
+  // components:{
+  //   CardWrapper
+  // }
 }
+
 </script>
 
 <style scoped>

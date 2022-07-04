@@ -1,23 +1,20 @@
 <template>
-  <LandingPage/>
+  <div id="app">
+    <LandingPageWeb/>
+  </div>
 </template>
 
 <script>
-import LandingPage from "@/components/LandingPage";
+
+import LandingPageWeb from "@/components/LandingPageWeb";
 export default {
   name: 'app',
-  components: {
-    LandingPage
-  }
+  components: {LandingPageWeb},
 }
 </script>
 
 <style>
-body, #app {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
+#app {
+
 }
 </style>
