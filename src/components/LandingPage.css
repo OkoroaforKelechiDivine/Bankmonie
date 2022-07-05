@@ -2,7 +2,13 @@
     background: url("../assets/MacBook Pro - 12.png");
 }
 
-.navbar-list{
+.navbar-list a:link{
+    text-decoration: none;
+}
+
+.navbar-list a:active{
+    text-decoration: none;
+    color: black;
 }
 
 .second-section{
