@@ -4,6 +4,7 @@
 
     <section class="first-section">
       <div class="navbar-list">
+        <img src="../assets/bankmonie.png" alt="">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>

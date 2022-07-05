@@ -1,9 +1,13 @@
 .first-section{
-    background: url("../assets/MacBook Pro - 12.png");
+    background-image: url("../assets/MacBook Pro - 12.png");
 }
 
 .navbar-list a:link{
     text-decoration: none;
+}
+
+.navbar-list ul{
+    list-style-type: none;
 }
 
 .navbar-list a:active{
