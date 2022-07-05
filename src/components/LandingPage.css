@@ -1,5 +1,35 @@
 .first-section{
     background-image: url("../assets/MacBook Pro - 12.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list span{
+    width: 40px;
+    height: 19px;
+    font-family: 'Gelion', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #009CDE;
+}
+
+.navbar-list ul{
+    font-family: 'Gelion', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(11, 3, 3, 0.95);
+    letter-spacing: -0.02em;
 }
 
 .navbar-list a:link{

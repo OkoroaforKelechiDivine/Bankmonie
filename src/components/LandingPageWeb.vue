@@ -1,12 +1,11 @@
 <template>
 
-  <div class="page-body">
-
+  <div>
     <section class="first-section">
       <div class="navbar-list">
         <img src="../assets/bankmonie.png" alt="">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#"><span class="home-link">Home</span></a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">FAQs</a></li>
