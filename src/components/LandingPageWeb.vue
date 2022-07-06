@@ -1,7 +1,5 @@
 <template>
-
-  <div class="page-body">
-    <section class="first-section">
+  <body>
       <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -16,14 +14,11 @@
             <li><a href="#">Log In</a> </li>
           </ul>
       </nav>
-    </section>
 
-<!--    <section class="second-section">-->
-<!--      My name is okoroafor Kelechi-->
-<!--    </section>-->
-  </div>
+  <section>
 
-
+  </section>
+  </body>
 
 </template>
 
