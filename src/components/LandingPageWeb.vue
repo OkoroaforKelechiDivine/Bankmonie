@@ -1,23 +1,26 @@
 <template>
 
-  <div>
+  <div class="page-body">
     <section class="first-section">
-      <div class="navbar-list">
-        <img src="../assets/bankmonie.png" alt="">
-        <ul>
-          <li><a href="#"><span class="home-link">Home</span></a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">FAQs</a></li>
-        </ul>
+      <nav>
+        <label class="logo">Bankmonie
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Log In</a> </li>
+          </ul>
+        </label>
 
-        <button>Log In</button>
-      </div>
+<!--        <button>Log In</button>-->
+      </nav>
+<!--      </div>-->
     </section>
 
-    <section class="second-section">
-      My name is okoroafor Kelechi
-    </section>
+<!--    <section class="second-section">-->
+<!--      My name is okoroafor Kelechi-->
+<!--    </section>-->
   </div>
 
 
