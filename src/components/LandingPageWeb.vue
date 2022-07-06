@@ -1,25 +1,21 @@
 <template>
   <body>
-      <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Bankmonie</label>
-          <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Log In</a> </li>
-          </ul>
-      </nav>
-
-  <section>
-
-  </section>
+  <header>
+    <img class="logo" src="../assets/ankmonie.png" alt="logo not found"/>
+    <nav>
+      <ul class="nav_links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </nav>
+    <a class="cta" ref="#"><button>Contacts</button></a>
+  </header>
   </body>
+<!--  <section>-->
 
+<!--  </section>-->
 </template>
 
 <script>
